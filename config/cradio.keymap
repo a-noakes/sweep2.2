@@ -52,11 +52,10 @@
 
         right_layer {
             bindings = <
-            &kp EXCL    &kp AT    &kp HASH   &kp COLON  &kp SEMI       &kp EQUAL   &kp N7      &kp N8    &kp N9    &kp PLUS
-            &kp BSLH   &kp PIPE   &kp LBRC   &kp LPAR   &kp LBKT       &kp STAR    &kp N4      &kp N5    &kp N6    &kp MINUS
-           &kp TILDE2  &kp UNDER  &kp RBRC   &kp RPAR   &kp RBKT        &kp N0     &kp N1     &kp N2     &kp N3    &kp FSLH
-                                              &none      &lt 0        &trans       &None
-        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+    &kp EXCL   &kp AT     &kp HASH   &kp COLON  &kp SEMI       &kp EQUAL  &kp N7    &kp N8      &kp N9     &kp PLUS
+    &kp BSLH   &kp PIPE   &kp LBRC   &kp LPAR   &kp LBKT       &kp STAR   &kp N4     &kp N5     &kp N6     &kp MINUS
+    &kp TILDE2 &kp UNDER  &kp RBRC   &kp RPAR   &kp RBKT       &kp N0    &kp N1     &kp N2      &kp N3     &kp FSLH
+                                    &none       &lt 0          &trans      &none
             >;
         };
 
