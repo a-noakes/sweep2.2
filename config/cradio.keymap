@@ -71,7 +71,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭────────────┬────────────┬────────────┬────────────┬────────────╮
         //│   ESC    │   META   │AltCmdCtr │  CAPS W  │  CTRL U  │   │  SWITCH APP│   PREV TAB │   NEXT TAB │  PRINT SCR │            │
-           &kp ESC  &kp LMETA  &kp LA(LG(C)) &caps_word &kp LC(U)     &kp LG(TAB) &kp LG(LS(LBKT)) &kp LG(LS(RBKT))  &kp PRINTSCREEN  &none 
+           &kp ESC  &kp LMETA  &kp LA(LG(C)) &caps_word &kp LC(U)     &kp LG(TAB) &kp LG(LS(LBKT)) &kp LG(LS(RBKT))  &none    &none 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────────────┬────────────┬────────────┬────────────┬────────────┤
         //│  SHIFT   │   CTRL   │  OPTION  │ COMMAND  │  CTRL D  │   │    LEFT    │    DOWN    │      UP    │    RIGHT   │     TAB    │
             &sk LSHFT &sk LCTRL   &sk LALT   &sk LCMD   &kp LC(D)       &kp LEFT      &kp DOWN     &kp UP   &kp RIGHT       &kp TAB
