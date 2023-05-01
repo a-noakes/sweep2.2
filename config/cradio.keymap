@@ -69,17 +69,17 @@
 
         left_layer {
             bindings = <
-        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│   ESC    │   META   │AltCmdCtr │  }       │          │   │  ^       │  (       │  )       │  ]       │  ~       │
-            &kp ESC   &kp LMETA  &kp LA(LG(C))   &caps_word   &none        &kp LG(TAB) &kp LG(LS(LBKT)) &kp LG(LS(RBKT))  &kp PSCRN  &kp LC(U) 
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  !       │  @       │  #       │  $       │  %       │   │  *       │  -       │  =       │  \       │  `       │
-            &sk LSHFT &sk LCTRL   &sk LALT   &sk LCMD    &none         &kp LEFT   &kp DOWN    &kp UP    &kp RIGHT  &kp LC(D) 
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &kp LG(Z)  &kp LG(X)  &kp LG(C) &kp LG(V)    &none         &kp DEL  &kp BSPC    &kp TAB   &kp LC(BSLH)  &kp RET
-        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &none       &lt 0       &key_repeat   &trans
+        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭────────────┬────────────┬────────────┬────────────┬────────────╮
+        //│   ESC    │   META   │AltCmdCtr │  CAPS W  │          │   │  SWITCH APP│   PREV TAB │   NEXT TAB │  PRINT SCR │    CTRL U  │
+           &kp ESC  &kp LMETA  &kp LA(LG(C)) &caps_word  &none        &kp LG(TAB) &kp LG(LS(LBKT)) &kp LG(LS(RBKT))  &kp PSCRN  &kp LC(U) 
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────────────┬────────────┬────────────┬────────────┬────────────┤
+        //│  SHIFT   │   CTRL   │  OPTION  │ COMMAND  │          │   │    LEFT    │    DOWN    │      UP    │    RIGHT   │   CTRL D   │
+            &sk LSHFT &sk LCTRL   &sk LALT   &sk LCMD    &none         &kp LEFT      &kp DOWN       &kp UP     &kp RIGHT    &kp LC(D) 
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────────────┬────────────┬────────────┬────────────┬────────────┤
+        //│   UNDO   │    CUT   │   COPY   │   PASTE  │          │   │     DEL    │ BACK SPACE │     TAB    │    CTRL \  │    ENTER   │
+            &kp LG(Z)  &kp LG(X)  &kp LG(C) &kp LG(V)    &none         &kp DEL       &kp BSPC      &kp TAB   &kp LC(BSLH)    &kp RET
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├────────────┬────────────┬──────────────────────────────────────╯
+                                              &none      &lt 0       &key_repeat   &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
