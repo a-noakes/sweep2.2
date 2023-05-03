@@ -60,7 +60,7 @@
             &kp BSLH   &kp PIPE   &kp LBRC   &kp LPAR   &kp LBKT       &kp STAR   &kp N4     &kp N5     &kp N6     &kp MINUS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    ~     │    _     │    }     │     )    │     ]    │   │    0     │     1    │     2    │     3    │    /     │
-            &kp TILDE2 &kp UNDER  &kp RBRC   &kp RPAR   &kp RBKT       &kp N0    &kp N1     &kp N2      &kp N3     &kp FSLH
+           &kp TILDE  &kp UNDER  &kp RBRC   &kp RPAR   &kp RBKT       &kp N0    &kp N1     &kp N2      &kp N3     &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                               &trans     &trans        &trans    &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
