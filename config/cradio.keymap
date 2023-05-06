@@ -93,14 +93,14 @@
         ext_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭────────────┬────────────┬────────────┬────────────┬────────────╮
-        //│   ESC    │   META   │AltCmdCtr │  CAPS W  │  CTRL U  │   │  SWITCH APP│   PREV TAB │   NEXT TAB │  PRINT SCR │            │
-           &kp ESC  &kp LMETA  &kp LA(LG(C)) &caps_word &kp LC(U)     &kp LG(TAB) &kp LG(LS(LBKT)) &kp LG(LS(RBKT))  &none    &none 
+        //│   ESC    │          │AltCmdCtr │  CAPS W  │  CTRL U  │   │  SWITCH APP│   PREV TAB │   NEXT TAB │     HOME   │     END    │
+           &kp ESC      &trans  &kp LA(LG(C)) &caps_word &kp LC(U)     &kp LG(TAB) &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &kp HOME &kp END
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────────────┬────────────┬────────────┬────────────┬────────────┤
         //│  SHIFT   │   CTRL   │  OPTION  │ COMMAND  │  CTRL D  │   │    LEFT    │    DOWN    │      UP    │    RIGHT   │     TAB    │
             &sk LSHFT &sk LCTRL   &sk LALT   &sk LCMD   &kp LC(D)       &kp LEFT      &kp DOWN     &kp UP   &kp RIGHT       &kp TAB
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────────────┬────────────┬────────────┬────────────┬────────────┤
-        //│   UNDO   │    CUT   │   COPY   │   PASTE  │  CTRL \  │   │     DEL    │ BACK SPACE │            │            │    ENTER   │
-            &kp LG(Z)  &kp LG(X)  &kp LG(C) &kp LG(V)  &kp LC(BSLH)     &kp DEL       &kp BSPC      &none        &none      &kp RET
+        //│   UNDO   │    CUT   │   COPY   │   PASTE  │  CTRL \  │   │BACK SPACE W│ BACK SPACE │   DELETE   │  DELETE W  │   ENTER    │
+            &kp LG(Z)  &kp LG(X)  &kp LG(C) &kp LG(V)  &kp LC(BSLH)   &kp LA(BSPC)   &kp BSPC      &kp DEL    &kp LA(DEL)   &kp RET
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├────────────┬────────────┬──────────────────────────────────────╯
                                               &trans      &trans        &trans        &trans
         //                                 ╰──────────┴──────────╯   ╰────────────┴────────────╯
