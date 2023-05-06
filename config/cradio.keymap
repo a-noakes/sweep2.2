@@ -50,6 +50,7 @@
 				combo_settings {
 						timeout-ms = <300>;
 						key-positions = <30 31>;
+            layers = <1>;
 						bindings = <&mo SETTINGS>;
 				};
     };
