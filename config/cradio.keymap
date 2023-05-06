@@ -133,8 +133,8 @@
         //│          │          │          │          │          │   │ NEXT SONG  │            │            │            │            │
             &none       &none      &none       &none  &bt BT_SEL 1    &bt BT_SEL 4    &none         &none       &none        &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────────────┬────────────┬────────────┬────────────┬────────────┤
-        //│          │          │          │          │          │   │  PEV SONG  │            │            │            │            │
-           &bt BT_CLR    &none      &none     &none   &bt BT_SEL 2   &bt BT_SEL 5     &none         &none        &none        &none
+        //│ BT CLEAR │          │          │          │          │   │            │            │            │            │  BT CLEAR  │
+           &bt BT_CLR    &none      &none     &none   &bt BT_SEL 2       &none        &none         &none        &none     &bt BT_CLR
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├────────────┬────────────┬──────────────────────────────────────╯
                                               &none      &none           &none        &none
         //                                 ╰──────────┴──────────╯   ╰────────────┴────────────╯
