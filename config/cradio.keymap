@@ -93,8 +93,8 @@
         ext_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭────────────┬────────────┬────────────┬────────────┬────────────╮
-        //│   ESC    │          │AltCmdCtr │  CAPS W  │  CTRL U  │   │  SWITCH APP│   PREV TAB │   NEXT TAB │     HOME   │     END    │
-           &kp ESC      &trans  &kp LA(LG(C)) &caps_word &kp LC(U)     &kp LG(TAB) &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &kp HOME &kp END
+        //│   ESC    │          │AltCmdCtr │  CAPS W  │  CTRL U  │   │  SWITCH APP│   PREV TAB │   NEXT TAB │    END     │     HOEM   │
+           &kp ESC      &trans  &kp LA(LG(C)) &caps_word &kp LC(U)     &kp LG(TAB) &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &kp END &kp HOME
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────────────┬────────────┬────────────┬────────────┬────────────┤
         //│  SHIFT   │   CTRL   │  OPTION  │ COMMAND  │  CTRL D  │   │    LEFT    │    DOWN    │      UP    │    RIGHT   │     TAB    │
             &sk LSHFT &sk LCTRL   &sk LALT   &sk LCMD   &kp LC(D)       &kp LEFT      &kp DOWN     &kp UP   &kp RIGHT       &kp TAB
