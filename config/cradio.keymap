@@ -34,10 +34,10 @@
 
     combos {
         compatible = "zmk,combos";
-				// internal-left & external-right thumb keys
+				// external-left & external-right thumb keys
 				combo_sym2 {
 						timeout-ms = <200>;
-						key-positions = <31 33>;
+						key-positions = <30 33>;
 						bindings = <&sl SYM2>;
 				};
 				// both left thumb keys
