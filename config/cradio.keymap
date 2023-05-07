@@ -62,7 +62,7 @@
         //│     Z      │     X      │     C      │     V      │     B      │   │     N      │      M     │    , <     │    .  >    │    / ?     │
            &ht LCTRL Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //├──────────────────────────────────────┬────────────┬────────────╯   ├────────────┬────────────┬──────────────────────────────────────╯
-                                                     &sl EXT    &kp LSHFT        &kp SPACE     &sl SYM
+                                                     &sl EXT    &sk LSHFT        &kp SPACE     &sl SYM
         //                                       ╰────────────┴────────────╯   ╰────────────┴────────────╯
             >;
         };
@@ -87,14 +87,14 @@
         ext_layer {
             bindings = <
         //╭────────────┬────────────┬────────────┬────────────┬────────────╮   ╭────────────┬────────────┬────────────┬────────────┬────────────╮
-        //│   ESC      │            │  AltCmdCtr │   CAPS W   │   CTRL U   │   │  SWITCH APP│   PREV TAB │   NEXT TAB │    END     │    HOME    │
-             &kp ESC      &trans     &kp LA(LG(C)) &caps_word    &kp LC(U)      &kp LG(TAB)  &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &kp END &kp HOME
+        //│   ESC      │            │            │   CAPS W   │            │   │  SWITCH APP│   PREV TAB │   NEXT TAB │            │            │
+             &kp ESC       &none         &none     &caps_word      &none        &kp LG(TAB) &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &none    &none
         //├────────────┬────────────┬────────────┬────────────┬────────────┤   ├────────────┬────────────┬────────────┬────────────┬────────────┤
-        //│    SHIFT   │    CTRL    │   OPTION   │  COMMAND   │   CTRL D   │   │    LEFT    │    DOWN    │      UP    │    RIGHT   │     TAB    │
-            &sk LSHFT     &sk LCTRL   &sk LALT   &sk LCMD        &kp LC(D)        &kp LEFT      &kp DOWN     &kp UP      &kp RIGHT     &kp TAB
+        //│    SHIFT   │    CTRL    │   OPTION   │  COMMAND   │            │   │    LEFT    │    DOWN    │      UP    │    RIGHT   │     TAB    │
+            &sk LSHFT     &sk LCTRL   &sk LALT   &sk LCMD          &none          &kp LEFT      &kp DOWN     &kp UP      &kp RIGHT     &kp TAB
         //├────────────┬────────────┬────────────┬────────────┬────────────┤   ├────────────┬────────────┬────────────┬────────────┬────────────┤
-        //│    UNDO    │     CUT    │    COPY    │    PASTE   │   CTRL \   │   │BACK SPACE W│ BACK SPACE │   DELETE   │  DELETE W  │   ENTER    │
-            &kp LG(Z)     &kp LG(X)    &kp LG(C)   &kp LG(V)   &kp LC(BSLH)     &kp LA(BSPC)   &kp BSPC      &kp DEL    &kp LA(DEL)   &kp RET
+        //│    UNDO    │     CUT    │    COPY    │    PASTE   │ KEY REPEAT │   │BACK SPACE W│ BACK SPACE │   DELETE   │  DELETE W  │   ENTER    │
+            &kp LG(Z)     &kp LG(X)    &kp LG(C)   &kp LG(V)    &key_repeat     &kp LA(BSPC)   &kp BSPC      &kp DEL    &kp LA(DEL)   &kp RET
         //├──────────────────────────────────────┬────────────┬────────────╯   ├────────────┬────────────┬──────────────────────────────────────╯
                                                         &trans      &trans        &trans        &trans
         //                                       ╰────────────┴────────────╯   ╰────────────┴────────────╯
