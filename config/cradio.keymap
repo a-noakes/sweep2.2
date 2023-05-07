@@ -34,12 +34,6 @@
 
     combos {
         compatible = "zmk,combos";
-				// both right thumb keys
-        combo_accent {
-            timeout-ms = <300>;
-            key-positions = <32 33>;
-            bindings = <&sl SYM2>;
-        };
 				// internal-left & external-right thumb keys
 				combo_sym2 {
 						timeout-ms = <200>;
@@ -48,8 +42,9 @@
 				};
 				// both left thumb keys
 				combo_settings {
-						timeout-ms = <300>;
+						timeout-ms = <200>;
 						key-positions = <30 31>;
+            layers = <SYM>;
 						bindings = <&mo SETTINGS>;
 				};
     };
