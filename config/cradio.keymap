@@ -90,8 +90,8 @@
         //│   ESC      │            │            │   CAPS W   │            │   │  SWITCH APP│   PREV TAB │   NEXT TAB │            │            │
              &kp ESC       &none         &none     &caps_word      &none        &kp LG(TAB) &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &none    &none
         //├────────────┬────────────┬────────────┬────────────┬────────────┤   ├────────────┬────────────┬────────────┬────────────┬────────────┤
-        //│    SHIFT   │    CTRL    │   OPTION   │  COMMAND   │            │   │    LEFT    │    DOWN    │      UP    │    RIGHT   │     TAB    │
-            &sk LSHFT     &sk LCTRL   &sk LALT   &sk LCMD          &none          &kp LEFT      &kp DOWN     &kp UP      &kp RIGHT     &kp TAB
+        //│    SHIFT   │    CTRL    │   OPTION   │  COMMAND   │   TMUX mod │   │    LEFT    │    DOWN    │      UP    │    RIGHT   │     TAB    │
+            &sk LSHFT     &sk LCTRL   &sk LALT   &sk LCMD      &kp LC(SPACE)      &kp LEFT      &kp DOWN     &kp UP      &kp RIGHT     &kp TAB
         //├────────────┬────────────┬────────────┬────────────┬────────────┤   ├────────────┬────────────┬────────────┬────────────┬────────────┤
         //│    UNDO    │     CUT    │    COPY    │    PASTE   │ KEY REPEAT │   │BACK SPACE W│ BACK SPACE │   DELETE   │  DELETE W  │   ENTER    │
             &kp LG(Z)     &kp LG(X)    &kp LG(C)   &kp LG(V)    &key_repeat     &kp LA(BSPC)   &kp BSPC      &kp DEL    &kp LA(DEL)   &kp RET
